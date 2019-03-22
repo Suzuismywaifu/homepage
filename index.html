@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Homepage</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="imgs/home.png" type="image/x-icon">	
+	<script src="js/config.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/date_time.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+	
+  <body>
+<center><div id="clockbox"></div></center>
+    <div id="parent">
+      <div id="swapCont"></div>	  
+	   <main id="main">
+		<div id="slide" onmouseover="lower()" onmouseout="raise()" onclick="k()" >
+      </br>
+      <nav id="menunav"></nav>
+		</div>
+      <div id="panel">
+        <div id="wrapper">
+		
+			<div id="websites">
+			<li>
+						<a href="#">Email & Shopping</a>
+							<ul>
+								<li><a href="https://mail.google.com" target="_blank">Gmail</a></li>
+								<li><a href="https://app.tutanota.com/" target="_blank">Tutanota</a></li>
+								<li><a href="https://online.asb.co.nz/auth/" target="_blank">ASB</a></li>
+								<li><a href="https://www.vodafone.co.nz/knox/login_handler.jsp?template=myvodafone" target="_blank">Vodafone</a></li>
+								<li><a href="https://www.trademe.co.nz" target="_blank">Trade Me</a></li>
+								<li><a href="http://www.mightyape.co.nz/" target="_blank">Mighty Ape</a></li>
+								<li><a href="http://www.amazon.com/International-Shipping-Direct/b?node=230659011" target="_blank">Amazon</a></li>
+								<li><a href="http://www.vocaroo.com">Vocaroo</a></li>
+							</ul>
+					</li>			
+					<li>
+						<a href="#">News & Videos</a>
+							<ul>
+								<li><a href="https://www.youtube.com/feed/subscriptions" target="_blank">Youtube</a></li>
+								<li><a href="http://www.vg247.com" target="_blank">VG247</a></li>
+								<li><a href="https://www.torrentfreak.com" target="_blank">TorrentFreak</a></li>
+								<li><a href="https://dailystormer.name/" Target="_blank"> Daily Stormer</a></li>
+								<li><a href="https://therightstuff.biz/" Target="_blank"> The Right Stuff</a></li>
+								<li><a href="http://www.stuff.co.nz" target="_blank">Stuff</a></li>
+								<li><a href="http://ewatchseries.to" target="_blank">Watch Series</a></li>								
+							</ul>
+					</li>
+					<li>
+						<a href="#">4chan</a>
+							<ul>
+								<li><a href="http://4chan.org/" target="_blank">4chan home</a></li>   
+								<li><a href="http://boards.4chan.org/a/" target="_blank">/a/ - Anime and Manga</a></li>
+								<li><a href="http://boards.4chan.org/v/" target="_blank">/v/ - Video Games</a></li>
+								<li><a href="http://boards.4chan.org/g/" target="_blank">/g/ - Technology</a></li>
+								<li><a href="http://boards.4chan.org/tv/" target="_blank">/tv/ - Television & Film</a></li>
+								<li><a href="http://boards.4chan.org/r9k/" target="_blank">/r9k/ - Robot9001</a></li>
+								<li><a href="http://boards.4chan.org/pol/" target="_blank">/pol/ - Politically Incorrect</a></li>
+							</ul>
+					</li>   
+					<li>
+						<a href="#">Downloads</a>
+							<ul>
+								<li><a href="http://anime.thehylia.com">The Hylia</li></a>
+								<li><a href="http://www.theextopia.com">The Extopia</li></a>
+								<li><a href="http://www.warez-bb.org/">Warez-bb</li></a>
+								<li><a href="http://www.puzo.org">Puzo</li></a>
+								<li><a href="http://intel.haruhichan.com/?s=">Haruhi Chan</li></a/>
+							</ul>
+					</li> 
+				</div>
+
+			<div id="boxing">
+            <div id="search">
+              <form id="searchform" name="searchform" method="" action="">
+                <div id="selectbg"></div>
+                <select id="select" onchange="s()"></select>
+                <input id="searchbox" autofocus="" type="text" autocomplete="off" name="q" placeholder="Search" onfocus="this.placeholder = ''; lockKeys()" onblur="this.placeholder = 'Search'; unlockKeys()" />
+             <button id="button">Go >></button>
+			 </form>			  
+            </div>
+			</div>
+          
+        </div>
+      </div>
+    </div>
+	</main>
+  </body>
+</html>
