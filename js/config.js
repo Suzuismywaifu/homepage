@@ -36,7 +36,7 @@ var searches =
 	},
 	{	//The Pirate Bay - 3
 		"name" 		: "Nyaa",
-		"url"  		: "http://www.nyaa.si/?page=search&cats=0_0&filter=3&term=",
+		"url"  		: "https://www.nyaa.si/?f=0&c=1_2&q=",
 		"query"		: "term",
 		"method"	: "get",
 		"placeholder": "haruhi",
