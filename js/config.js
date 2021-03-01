@@ -71,7 +71,7 @@ var searches =
 		"method"	: "get",
 		"enabled"	: true
 	},
-	{	//Wolfram Alpha - 8
+	{	//Yandex Search - 8
 		"name" 		: "Yandex",
 		"url"		: "https://yandex.com/search/?text=",
 		"query"		: "q",
