@@ -36,7 +36,7 @@ var searches =
 	},
 	{	//The Pirate Bay - 3
 		"name" 		: "Nyaa",
-		"url"  		: "https://www.nyaa.si/?f=0&c=1_2&q=",
+		"url"  		: "https://nyaa.si/?f=0&c=1_2&q=",
 		"query"		: "term",
 		"method"	: "get",
 		"placeholder": "haruhi",
@@ -72,9 +72,9 @@ var searches =
 		"enabled"	: true
 	},
 	{	//Wolfram Alpha - 8
-		"name" 		: "WrA",
-		"url"		: "http://www.wolframalpha.com/input",
-		"query"		: "i",
+		"name" 		: "Yandex",
+		"url"		: "https://yandex.com/search/?text=",
+		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
 	},
