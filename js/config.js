@@ -29,7 +29,7 @@ var searches =
 	},
 	{	//nibl - 2
 		"name" 		: "nibl",
-		"url"  		: "http://nibl.co.uk/bots.php?search=",
+		"url"  		: "https://nibl.co.uk/bots.php?search=",
 		"query"		: "search",
 		"method"	: "post",
 		"enabled"	: true
@@ -52,21 +52,21 @@ var searches =
 	},
 	{	//Youtube - 5
 		"name" 		: "Panda",
-		"url"  		: "http://exhentai.org",
+		"url"  		: "https://exhentai.org",
 		"query"		: "f_search",
 		"method"	: "get",
 		"enabled"	: true
 	},
 	{	//Wikipedia - 6
 		"name" 		: "N Hen",
-		"url"		: "http://nhentai.net/search/?q",
+		"url"		: "https://nhentai.net/search/?q",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
 	},
 	{	//ibsearch - 7
 		"name" 		: "ib",
-		"url"		: "http://ibsearch.xxx",
+		"url"		: "https://ibsearch.xxx",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
@@ -80,7 +80,7 @@ var searches =
 	},
 	{	//Youtube - 9
 		"name" 		: "YTube",
-		"url"  		: "http://www.youtube.com/results",
+		"url"  		: "https://www.youtube.com/results",
 		"query"		: "search_query",
 		"method"	: "get",
 		"enabled"	: true
