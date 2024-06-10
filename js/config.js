@@ -28,10 +28,10 @@ var searches =
 		"enabled"	: true
 	},
 	{	//nibl - 2
-		"name" 		: "nibl",
-		"url"  		: "https://nibl.co.uk/bots.php?search=",
-		"query"		: "search",
-		"method"	: "post",
+		"name" 		: "Brave",
+		"url"  		: "https://search.brave.com/search?q=",
+		"query"		: "q",
+		"method"	: "get",
 		"enabled"	: true
 	},
 	{	//The Pirate Bay - 3
