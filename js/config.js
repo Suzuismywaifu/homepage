@@ -20,16 +20,16 @@ var retractable_menu = true;
 //----------------//
 var searches =
 [
-	{	//Google - 1
-		"name" 		: "Google",
-		"url"  		: "https://google.com/search",
+	{	//Brave - 1
+		"name" 		: "Brave",
+		"url"  		: "https://search.brave.com/search?q=",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
 	},
-	{	//nibl - 2
-		"name" 		: "Brave",
-		"url"  		: "https://search.brave.com/search?q=",
+	{	//Google - 2
+		"name" 		: "Google",
+		"url"  		: "https://google.com/search",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
@@ -39,7 +39,7 @@ var searches =
 		"url"  		: "https://nyaa.si/?f=0&c=1_2&q=",
 		"query"		: "term",
 		"method"	: "get",
-		"placeholder": "haruhi",
+		"placeholder": "Nyaa",
 		"enabled"	: true
 		
 	},
@@ -67,13 +67,6 @@ var searches =
 	{	//ibsearch - 7
 		"name" 		: "ib",
 		"url"		: "https://ibsearch.xxx",
-		"query"		: "q",
-		"method"	: "get",
-		"enabled"	: true
-	},
-	{	//Yandex Search - 8
-		"name" 		: "Yandex",
-		"url"		: "https://yandex.com/search/?text=",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
