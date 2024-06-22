@@ -20,16 +20,16 @@ var retractable_menu = true;
 //----------------//
 var searches =
 [
-	{	//Brave - 1
-		"name" 		: "Brave",
-		"url"  		: "https://search.brave.com/search?q=",
+	{	//Google - 2
+		"name" 		: "Google",
+		"url"  		: "https://google.com/search",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
 	},
-	{	//Google - 2
-		"name" 		: "Google",
-		"url"  		: "https://google.com/search",
+		{	//Brave - 1
+		"name" 		: "Brave",
+		"url"  		: "https://search.brave.com/search?q=",
 		"query"		: "q",
 		"method"	: "get",
 		"enabled"	: true
