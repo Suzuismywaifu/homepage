@@ -96,6 +96,7 @@ body, html {
     padding: 0;
 	background-image:url("imgs/bg2.png");
 	background-repeat:100%; 
+	background-size: cover;
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 	font-family: 'Open Sans', sans-serif;
 	text-align:center;
