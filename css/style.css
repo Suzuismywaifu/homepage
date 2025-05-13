@@ -94,7 +94,7 @@ body, html {
     min-height: 100%;
     margin: 0;
     padding: 0;
-	background-image:url("imgs/bg2.png");
+	background-image:url("imgs/bg.png");
 	background-repeat:100%; 
 	background-size: cover;
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
